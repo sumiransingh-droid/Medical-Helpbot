@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="buy.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Buy Now</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <img src="images/logo.png" id="logo" alt="Medical-HelpBot">
+        <div class="form-group m-0 p-0 col-3">
+            <div class="m-0 p-0 input-group-text text-primary bg-white p-0">
+                <input type="text" id="searchCat" class="form-control border-0"
+                    placeholder="Search for products, hospitals and doctors">
+                <span id="searchBtn" class="fa fa-search form-control-feedback bg-white px-2"></span>
+            </div>
+        </div>
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="about.html">about</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="contact.html">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="menubar" class="fas fa-bars"></div>
+            <a href="login.html">Login</a>
+        </div>
+    </header>
+
+    
+    <section class="order-form m-4">
+        <div class="container pt-4">
+            <div class="row">
+                <div class="col-12 px-4">
+                    <h1>You can see my Order Form</h1>
+                    <span>with some explanation below</span>
+                    <hr class="mt-1" />
+                </div>
+      
+                <div class="col-12">
+                    <div class="row mx-4">
+                        <div class="col-12">
+                            <label class="order-form-label">Name</label>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-outline">
+                                <input type="text" id="form1" class="form-control order-form-input" />
+                                <label class="form-label" for="form1">First</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 mt-2 mt-sm-0">
+                            <div class="form-outline">
+                                <input type="text" id="form2" class="form-control order-form-input" />
+                                <label class="form-label" for="form2">Last</label>
+                            </div>
+                        </div>
+                    </div>
+      
+                    <div class="row mt-3 mx-4">
+                        <div class="col-12">
+                            <label class="order-form-label">Type of thing you want to order</label>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-outline">
+                                <input type="text" id="form3" class="form-control order-form-input" />
+                            </div>
+                        </div>
+                    </div>
+      
+                    <div class="row mt-3 mx-4">
+                        <div class="col-12">
+                            <label class="order-form-label">No of Items</label>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-outline">
+                                <input type="text" id="form4" class="form-control order-form-input" />
+                            </div>
+                        </div>
+                    </div>
+      
+                    <div class="row mt-3 mx-4">
+                        <div class="col-12">
+                            <label class="order-form-label" for="date-picker-example">Date</label>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-outline datepicker" data-mdb-toggle-button="false">
+                                <input
+                                type="text" class="form-control order-form-input" id="datepicker1" data-mdb-toggle="datepicker" />
+                                <label for="datepicker1" class="form-label">Select a date</label>
+                            </div>
+                        </div>
+                    </div>
+      
+                    <div class="row mt-3 mx-4">
+                        <div class="col-12">
+                            <label class="order-form-label">Adress</label>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-outline">
+                                <input type="text" id="form5" class="form-control order-form-input" />
+                                <label class="form-label" for="form5">Street Address</label>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-2">
+                            <div class="form-outline">
+                                <input type="text" id="form6" class="form-control order-form-input" />
+                                <label class="form-label" for="form6">Street Address Line 2</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 mt-2 pe-sm-2">
+                            <div class="form-outline">
+                                <input type="text" id="form7" class="form-control order-form-input" />
+                                <label class="form-label" for="form7">City</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 mt-2 ps-sm-0">
+                            <div class="form-outline">
+                                <input type="text" id="form8" class="form-control order-form-input" />
+                                <label class="form-label" for="form8">Region</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 mt-2 pe-sm-2">
+                            <div class="form-outline">
+                                <input type="text" id="form9" class="form-control order-form-input" />
+                                <label class="form-label" for="form9">Postal / Zip Code</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 mt-2 ps-sm-0">
+                            <div class="form-outline">
+                                <input type="text" id="form10" class="form-control order-form-input" />
+                                <label class="form-label" for="form10">Country</label>
+                            </div>
+                        </div>
+                    </div>
+      
+                    <div class="row mt-3 mx-4">
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                                <label class="form-check-label" for="flexCheckDefault">I know what I need to know</label>
+                            </div>
+                        </div>
+                    </div>
+      
+                    <div class="row mt-3">
+                        <div class="col-12">
+                            <button type="button" id="btnSubmit" class="btn btn-primary d-block mx-auto btn-submit">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+    
+    
+    
+    
+    
+    
+      <!-- Footer-->
+      <div class="footer">
+        <div class="main-footer">
+            <div class="inner-footer">
+                <img src="images/logo.png" alt="">
+            </div>
+    
+            <div class="inner-footer">
+                <h2></h2>
+                <a href="#">Terms Serivces</a>
+                <a href="#">Privacy & Policy</a>
+    
+            </div>
+    
+            <div class="inner-footer">
+                <h2></h2>
+    
+    
+    
+            </div>
+    
+            <div class="inner-footer">
+    
+                <a href="#">@Medical-HelpBot</a>
+                <a href="#">2023</a>
+    
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+          <script src="appointment.js"></script>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      </body>
+    </html>
+
+    
